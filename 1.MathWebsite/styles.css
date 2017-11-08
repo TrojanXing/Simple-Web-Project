@@ -1,0 +1,179 @@
+#container {
+    width: 1050px;
+    /*border: 1px solid;*/
+    height: auto;
+    margin: 0 auto;
+    /*set to the center*/
+}
+
+h1 a {
+    font-size: 50px;
+    font-weight: 100;
+    color: #861BBF;
+    text-decoration: none;
+}
+#header {
+    height: 100px;
+    padding: 10px 0px;
+}
+
+#brand {
+    float: left;
+}
+
+#searchBox {
+    float: right;
+    background-color: #88D3BC;
+    width:400px;
+    height: 50px;
+    padding: 20px 20px 0px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+.text {
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: #E36A0C;
+    border: 1px solid #88D3BC;
+    background: white url("images/search.png") right center no-repeat;
+    background-size: 20px;
+}
+.submit {
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: #861BBF;
+    border: none;
+    margin:2px;
+    border-radius: 4px;
+}
+
+#menu {
+    height: 70px;
+    background-color: #D1EFE6;
+    padding: 7px 0;
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+#menu ul li {
+    float: left;
+    padding: 0px 35px;
+
+    height: 30px;
+    border-right: 1px solid blueviolet;
+}
+
+#menu ul li:last-child {
+    border: none;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 20px;
+    text-transform: capitalize;
+    line-height: 30px;
+    transition: font-size 0.5s ease;
+}
+
+#menu ul li a:hover, #menu ul li a.active {
+    font-size: 23px;
+    font-weight: bold;
+    color: #5d12e7;
+}
+
+#introduction {
+    background: linear-gradient(#E5F2BB, #B7E952);
+    padding: 30px;
+    margin: 16px 0;
+}
+
+#introduction h3 {
+    font-size: 40px;
+    color: green;
+    font-weight: normal;
+}
+
+#introduction p {
+    font-size: 26px;
+    color: mediumseagreen;
+    text-align: justify;
+
+}
+
+.sidebar {
+    height: 580px;
+    width: 430px;
+    border: 1px solid greenyellow;
+    border-radius: 28px;
+    padding: 20px 40px;
+}
+
+.sidebar ul li a {
+    line-height: 38px;
+    text-decoration: none;
+    font-size: 20px;
+    color: purple;
+    transition: font-size 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: none;
+    color: rebeccapurple;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.sidebar h3 {
+    color: #861BBF;
+    font-size: 25px;
+}
+
+#leftsidebar {
+    float: left;
+}
+
+#leftsidebar ul {
+    padding-top: 10px;
+}
+
+#leftsidebar ul li {
+    padding-bottom: 5px;
+    padding-left: 32px;
+    background: white url("images/arror.png") left center no-repeat;
+    background-size: 20px;
+}
+
+#rightsidebar {
+    float: right;
+}
+
+#rightsidebar ul {
+    padding-top: 10px;
+}
+
+#rightsidebar ul li {
+    padding: 8px 0px 8px 48px;
+    background: white url("images/tick.png") left center no-repeat;
+    background-size: 40px;
+}
+
+.footer {
+    height: 60px;
+    background: linear-gradient(#F6F390, #D5D533);
+    padding: 10px 30px;
+    margin: 10px 0px;
+}
+
