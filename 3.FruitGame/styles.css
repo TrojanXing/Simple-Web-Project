@@ -1,0 +1,114 @@
+html {
+    height: 100%;
+    background: radial-gradient(circle, #FFFFFF, #CCCCCC);
+}
+
+#container {
+    height: 600px;
+    width: 800px;
+    background-color: #7EB7B0;
+    margin: 200px auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: #577F7A 4px 4px 0 0;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+}
+
+#score {
+    background-color: #E3E3A1;
+    color: grey;
+    /*width: ;*/
+    /*height:*/
+    padding: 16px;
+    position: absolute;
+    left: 700px;
+    border-radius: 5px;
+    box-shadow: #898961 2px 2px 0 0;
+}
+
+#life {
+    background-color: #E3E3A1;
+    padding: 16px;
+    min-width: 70px;
+    border-radius: 5px;
+    box-shadow: #898961 2px 2px 0 0;
+    position: absolute;
+    left: 50px;
+    display: none;
+}
+
+.heart {
+    width: 16px;
+    height: 16px;
+    margin: 0 5px;
+}
+
+#gamePanel {
+    width: 700px;
+    height: 400px;
+    background-color: ghostwhite;
+    margin: 65px auto 10px auto;
+    border-radius: 5px;
+    box-shadow: #7C7DAC 2px 2px 2px 0;
+    font-size: 100px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    /*font-family: cursive,sans-serif;*/
+}
+
+.fruit {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    display: none;
+}
+
+#instruction {
+    width: 400px;
+    height: 50px;
+    background-color: #7F61C4;
+    margin: 15px auto;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: #3D316A 2px 2px 2px 0;
+}
+
+#start {
+    width: 85px;
+    background-color: white;
+    padding: 10px;
+    margin: 20px auto 10px auto;
+    border-radius: 5px;
+    box-shadow: grey 2px 2px 2px 0;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    transition: all 0.2s;
+}
+
+#start:hover {
+    background-color: #74BEDA;
+    color: white;
+}
+
+#start:active {
+    box-shadow: grey 0  0;
+    top: 4px;
+}
+
+#gameover {
+    height: 200px;
+    width: 500px;
+    background: linear-gradient(#E7AE5F, #F4E0C3);
+    position: absolute;
+    top: 200px;
+    left: 170px;
+    font-size: 38px;
+    text-align: center;
+    border-radius: 6px;
+    display: none;
+    color: white;
+}
